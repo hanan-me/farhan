@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "1034515887331",
+    "project_id": "university-2696e",
+    "storage_bucket": "university-2696e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034515887331:android:8ca83ccfffd639046b81d6",
+        "android_client_info": {
+          "package_name": "com.example.first"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034515887331-uf3pvq6cc94joi6nrof97t69o2a4ntvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNGaxv4IvwE6Sv2P1vLws6h1UYci2sncM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034515887331-uf3pvq6cc94joi6nrof97t69o2a4ntvh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1034515887331-8sdd7ljt9mon1p1q444bo2p6dfdgkgtl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.medic"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034515887331:android:2b868aef43ef74b36b81d6",
+        "android_client_info": {
+          "package_name": "com.example.medic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034515887331-vkqrh2s116l046q8kg3jolbb3ntl0hb8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medic",
+            "certificate_hash": "aa64c551b965156ecbde4847bcaaa71fe30d6ea1"
+          }
+        },
+        {
+          "client_id": "1034515887331-uf3pvq6cc94joi6nrof97t69o2a4ntvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNGaxv4IvwE6Sv2P1vLws6h1UYci2sncM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034515887331-uf3pvq6cc94joi6nrof97t69o2a4ntvh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1034515887331-8sdd7ljt9mon1p1q444bo2p6dfdgkgtl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.medic"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
