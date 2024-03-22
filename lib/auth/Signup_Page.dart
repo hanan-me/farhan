@@ -1,5 +1,6 @@
 import 'package:cnic_scanner/cnic_scanner.dart';
 import 'package:cnic_scanner/model/cnic_model.dart';
+// import 'package:flutter/src/material/dropdown.dart';
 import 'package:first/auth/validate.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
@@ -24,6 +25,7 @@ class _SignupPageState extends State<SignupPage> {
   final nationalityController = TextEditingController(text: "Pakistani");
   final lastnameController = TextEditingController();
   final firstnameController = TextEditingController();
+  String _selectedOption = 'Adsf';
   final _formKey = GlobalKey<FormState>();
 
   // List<String> cniccheck = [
@@ -480,7 +482,33 @@ class _SignupPageState extends State<SignupPage> {
                     ),
                   ],
                 ),
-                SizedBox(
+
+
+// Then in your build method, use this variable in your DropdownButton
+          // Set to a default value
+        //
+        // DropdownButton<String>(
+        //   value: _selectedOption,
+        //   onChanged: (newValue) {
+        //     setState(() {
+        //       _selectedOption = newValue!;
+        //     });
+        //   },
+        //   items: [
+        //     'Adsf',
+        //     'sdf',
+        //     'sdhfjksd',
+        //     'gdfg'
+        //   ].map((String value) {
+        //     return DropdownMenuItem<String>(
+        //       value: value, // Ensure each value is unique
+        //       child: Text(value),
+        //     );
+        //   }).toList(),
+        // ),
+
+
+        SizedBox(
                   height: h * 0.03,
                 ),
                 GestureDetector(
